@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS8 - Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+        <!--BOTÃO IR AO TOPO DA TELA, FUNCIONAMENTO EM CSS-->
+        <div class="scroll-up-btn">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+        </div>
+    
+        <!--MENU LOCALIZADO NO TOPO DA TELA-->
+    
+        <div class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="index.html"><img src="https://r.mobirisesite.com/232370/assets/images/abfe7c15b34543b7b7db10aa1ec579e4-233x75.png" width="100"></a></div>
+                <ul class="menu">
+                    <li><a href="Engenharia.html">Engenharia</a></li>
+                    <li><a href="Treinamento.html">Treinamento</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li><a href="Sobre.html">Sobre</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <!--Sessão contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <br>
+            <!--COLUNA UM-->
+            <div class="contact-content">
+               <div class="column left">
+                   <div class="text">Fale Conosco</div>
+                   <p class="text-textoFaleConosco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit laudantium saepe, voluptate libero fugiat in, dolores voluptatem distinctio animi et iusto, amet possimus tenetur modi cupiditate. Odio, numquam fuga perferendis vitae ullam eum, ipsam tempora unde nisi optio vero recusandae ipsa asperiores rem, labore impedit laudantium officiis maiores natus.</p>
+               
+                <div class="icons">
+                    <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">Seu nome</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                    <ion-icon name="earth-outline"></ion-icon>
+                    <div class="info">
+                        <div class="head">Endereço</div>
+                        <div class="sub-title">Belo Horizonte, MG</div>
+                    </div>
+                    </div>
+
+                    <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">contato@seunome.com</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--COLUNA DIREITA PARA PREENCHER-->
+            <div class="column rigth">
+                <div class="text">Mensagem</div>
+                <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
+                    <input type="hidden" name="accessKey" value="f69b9930-b3b2-4b24-a216-92a3c8837b68">
+                    <input type="hidden" name="redirectTo" value="#home">
+                    <div class="fields">
+                        <div class="field name">
+                            <input name="name" type="text" placeholder="Nome" required>
+                        </div>
+                        <div class="field email">
+                            <input name="email" type="email" placeholder="Email de contato" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="field textarea">
+                           <textarea  name="message" placeholder="Escreva sua mensagem..."></textarea>
+                        </div>
+                        <div class="field textarea">
+                            <textarea  name="message" placeholder="Escrever...."></textarea>
+                         </div>
+                        <div class="button">
+                            <button type="submit" >Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão  footer-->
+    <footer>
+        <span>Criado por </span>
+        <span> <a href="https://www.linkedin.com/in/enzomartinsti/" target="_blank">MP</span></a>
+            <span>  </span>
+        <span> | </span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+</body>
+</html>
